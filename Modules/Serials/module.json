@@ -1,0 +1,13 @@
+{
+    "name": "Serials",
+    "alias": "serials",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Serials\\Providers\\SerialsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

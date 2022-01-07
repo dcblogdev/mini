@@ -1,0 +1,45 @@
+<?php
+
+namespace $CLASS_NAMESPACE$;
+
+use Illuminate\Contracts\Support\Renderable;
+use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
+
+class $CLASS$ extends Controller
+{
+    public function index()
+    {
+        return view('$LOWER_NAME$::index');
+    }
+
+    public function create()
+    {
+        return view('$LOWER_NAME$::create');
+    }
+
+    public function store(Request $request)
+    {
+        //
+    }
+
+    public function show($id)
+    {
+        return view('$LOWER_NAME$::show');
+    }
+
+    public function edit($id)
+    {
+        return view('$LOWER_NAME$::edit');
+    }
+
+    public function update(Request $request, $id)
+    {
+        //
+    }
+
+    public function destroy($id)
+    {
+        //
+    }
+}
