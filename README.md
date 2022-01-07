@@ -9,6 +9,19 @@ Clone this repo
 ```
 git clone git@github.com:dcblogdev/mini.git mini
 ```
+
+## Setup
+
+Rename .env.example to .env
+
+or rename using terminal
+
+```
+mv .env.example .env
+```
+
+Edit the database credentials and save.
+
 Run the migration and seeds in a single action:
 
 ```
