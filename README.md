@@ -22,6 +22,18 @@ mv .env.example .env
 
 Edit the database credentials and save.
 
+Run composer install:
+
+```
+composer install
+```
+
+Generate APP_KEY:
+
+```
+php artisan key:generate
+```
+
 Run the migration and seeds in a single action:
 
 ```
