@@ -1,8 +1,6 @@
 <?php
 
-use Modules\Contacts\Models\Contact;
 use Modules\Serials\Models\Serial;
-use Modules\Serials\Models\SerialCode;
 
 uses(Tests\TestCase::class);
 
